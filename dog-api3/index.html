@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog API Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dog Pictures</h1>
+  <p>Pick a number and view upto 50 random pictures of your favorite pet.</p>
+  <fieldset>
+          <legend>Enter a breed name and dog-count you'd like to view today?</legend>
+          <form>
+            <input type="text" id="breed" value="hound" min="1" max="50" required>
+            <br><br>
+            <input type="text" id="number-pics" value="3" min="1" max="50" required>
+            <br><br>
+            <input type="submit" class="btn-submit" value="Get dog pics!">
+          </form>
+        </fieldset>
+    
+        <section class="results hidden">
+          <div class="results-images">
+    </div>
+</body>
+ <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+</html>
